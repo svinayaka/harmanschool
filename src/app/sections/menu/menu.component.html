@@ -1,0 +1,32 @@
+<div class="header-container"> 
+    <div class="header-txt">
+        <h4>HarmanSchool</h4>
+    </div>
+    <nav class="header-link">
+        <ul class="header-nav-menu">
+            <li class="header-nav-list"><a href="javascript:void(0);" [routerLink]="['/home']">Home</a></li>
+            <li class="header-nav-list"><a href="javascript:void(0);" [routerLink]="['/courses']">Courses</a></li>
+            <li class="header-nav-list"><a href="javascript:void(0);" [routerLink]="['/programs']">Programs</a></li>
+            <li class="header-nav-list"><a href="javascript:void(0);" [routerLink]="['/teachers']">Teachers</a></li>
+        </ul>
+    </nav>
+    <div class="header-contact">
+        <button>Contact Us</button>
+    </div>
+    <!-- To enable only when small screen or resized -->
+    <nav class="header-link-small-screen">
+        <button class="header-nav-small-menu"><fa-icon [icon]="bars" (click)="onSmallNavSelection()"></fa-icon></button>
+    </nav>
+    <div class="header-nav-small-menu-slider " 
+        [ngClass]="{'header-nav-small-menu-slider-close': smallNavSelected==false, 'header-nav-small-menu-slider-open': smallNavSelected==true}"
+        >
+        <button><fa-icon [icon]="close" (click)="onSmallNavSelection()"></fa-icon></button>
+        <ul class="header-nav-small-menu">
+            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/home']">Home</a></li>
+            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/courses']">Courses</a></li>
+            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/programs']">Programs</a></li>
+            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/teachers']">Teachers</a></li>
+        </ul>
+    </div>
+    <!-- ****** -->
+</div>

@@ -1,0 +1,84 @@
+.header-container {
+    display: flex;
+    box-shadow: 0 8px 6px -6px #E2E2E2;
+    height: 3em;
+}
+
+.header-txt {
+    flex: 1;
+    text-align: center;
+    & h4 {
+        padding: 15px 0%;
+    }
+}
+.header-link  {
+    flex: 1;
+    text-align: center;
+}
+.header-contact {
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    & button, button:focus {
+        background: #7971ea;
+        color: white;
+        border-radius: 20px;
+        outline: none;
+        height: 30px;
+        margin: 0px;
+        width: 8em;
+        outline: none;
+        border: none;
+    }
+}
+.header-nav-menu {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: #888383;
+}
+
+.header-nav-list {
+    flex: 1;
+    height: 26px;
+    & a {
+        text-decoration: none;
+        border-bottom: 2px solid #7971ea;
+        display: inline-block;
+        height: 20px;
+        color: inherit;
+    }
+}
+
+.header-nav-small-menu, header-nav-small-menu:focus {
+    background: transparent;
+    color: black;
+    border: none;
+    font-size: 26px;
+    height: 100%;
+    cursor: pointer;
+    outline: none;
+}
+.header-nav-small-menu-slider {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: white;
+    z-index: 1;
+}
+.header-nav-small-menu-slider-close {
+    right: -150px;
+    transition: 1s;
+    animation: ease-in-out;
+    
+}
+.header-nav-small-menu-slider-open {
+    right: 0px;
+    transition: 1s;
+    animation: ease-in-out;
+    width: 20rem;
+}
+

@@ -1,0 +1,32 @@
+:host {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+.bg-programs {
+    height: 93%;
+}
+
+.bg-programs-content {
+    height: 100%;
+}
+
+.bg-programs-our-prog-header-txt {
+    text-align: center;
+    height: 100px;
+    line-height: 90px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.bg-programs-our-prog-header-discription {
+    padding: 1% 30%;
+    line-height: 1.4rem;
+}
+
+.bg-programs-our-prog-img {
+    background: url('../../../assets/program.svg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

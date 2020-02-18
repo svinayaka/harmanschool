@@ -1,0 +1,230 @@
+:host {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+.bg-courses {
+    height: 100%;
+    position: relative;
+}
+.bg-courses-container {
+    height: 90%;
+}
+.bg-courses-top-layout {
+    height: 50%;
+    background: #7971ea;
+    color: white;
+}
+.bg-courses-header-txt {
+    height: 100%;
+    text-align: center;
+    padding: 100px 0%;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.bg-courses-img-list {
+    position: absolute;
+    height: 15rem;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    padding: 0% 10%;
+    top: 30%;
+}
+.bg-courses-img-design {
+    width: 100%;
+    margin: 0% 2%;
+    position: relative;
+    &-logo {
+        background: url("../../../assets/teacher_1.jpg");
+        height: 16rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        max-width: 100%;
+    }
+    &-price {
+        position: absolute;
+        top: 95%;
+        background: #7971ea;
+        padding: 4%;
+        right: 0;
+        color: white;
+    }
+    &-course {
+        padding: 10% 4%;
+        background-color: #f8f8f8;
+        &-weeks{
+            font-size: small;
+            color: #acabab;
+            margin: 2% 0%;
+        }
+        &-type {
+            color: #7971ea;
+            font-size: larger;
+            margin: 2% 0%;
+        }
+        &-descrption {
+            font-size: small;
+            color: #acabab;
+            margin: 2% 0%;
+            line-height: 1.4rem;
+        }
+    }
+    &-subscribers {
+        background-color: #f8f8f8;
+        display: flex;
+        &-info {
+            width: 70%;
+            border-color: #E2E2E2;
+            border-style: solid;
+            border-width: 1px;
+            border-left-width: 0.5px;
+            padding: 4%;
+            font-size: small;
+            color: #acabab;
+        }
+        &-msg {
+            width: 30%;
+            border-color: #E2E2E2;
+            border-style: solid;
+            border-width: 1px;
+            border-right-width: 0.5px;
+            padding: 4%;
+            font-size: small;
+            color: #acabab;
+        }
+    }
+}
+.bg-courses-img-prog {
+    width: 100%;
+    margin: 0% 2%;
+    position: relative;
+    &-logo {
+        background: url("../../../assets/teacher_2.jpg");
+        height: 16rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        max-width: 100%;
+    }
+    &-price {
+        position: absolute;
+        top: 95%;
+        background: #7971ea;
+        padding: 4%;
+        right: 0;
+        color: white;
+    }
+    &-course {
+        padding: 10% 4%;
+        background-color: #f8f8f8;
+        &-weeks{
+            font-size: small;
+            color: #acabab;
+            margin: 2% 0%;
+        }
+        &-type {
+            color: #7971ea;
+            font-size: larger;
+            margin: 2% 0%;
+        }
+        &-descrption {
+            font-size: small;
+            color: #acabab;
+            margin: 2% 0%;
+            line-height: 1.4rem;
+        }
+    }
+    &-subscribers {
+        background-color: #f8f8f8;
+        display: flex;
+        &-info {
+            width: 70%;
+            border-color: #E2E2E2;
+            border-style: solid;
+            border-width: 1px;
+            padding: 4%;
+            font-size: small;
+            color: #acabab;
+        }
+        &-msg {
+            width: 30%;
+            border-color: #E2E2E2;
+            border-style: solid;
+            border-width: 1px;
+            border-right-width: 0.5px;
+            padding: 4%;
+            font-size: small;
+            color: #acabab;
+        }
+    }
+}
+.bg-courses-img-physics {
+    width: 100%;
+    margin: 0% 2%;
+    position: relative;
+    &-logo {
+        background: url("../../../assets/course_1.jpg");
+        height: 16rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        max-width: 100%;
+    }
+    &-price {
+        position: absolute;
+        top: 95%;
+        background: #7971ea;
+        padding: 4%;
+        right: 0;
+        color: white;
+    }
+    &-course {
+        padding: 10% 4%;
+        background-color: #f8f8f8;
+        &-weeks{
+            font-size: small;
+            color: #acabab;
+            margin: 2% 0%;
+        }
+        &-type {
+            color: #7971ea;
+            font-size: larger;
+            margin: 2% 0%;
+        }
+        &-descrption {
+            font-size: small;
+            color: #acabab;
+            margin: 2% 0%;
+            line-height: 1.4rem;
+        }
+    }
+    &-subscribers {
+        background-color: #f8f8f8;
+        display: flex;
+        &-info {
+            width: 70%;
+            border-color: #E2E2E2;
+            border-style: solid;
+            border-width: 1px;
+            padding: 4%;
+            font-size: small;
+            color: #acabab;
+        }
+        &-msg {
+            width: 30%;
+            border-color: #E2E2E2;
+            border-style: solid;
+            border-width: 1px;
+            border-right-width: 0.5px;
+            padding: 4%;
+            font-size: small;
+            color: #acabab;
+        }
+    }
+}
+
+.bg-courses-down-layout {
+    height: 50%;
+    background-color: white;
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "harmanassignment": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "harmanassignment"
+    }
+  },
+  "defaultProject": "harmanassignment",
+  "cli": {
+    "analytics": "3ddab4d3-6b4c-4ad9-9b66-aeb846f8b766"
+  }
 }
