@@ -20,7 +20,7 @@
     <div class="header-nav-small-menu-slider " 
         [ngClass]="{'header-nav-small-menu-slider-close': smallNavSelected==false, 'header-nav-small-menu-slider-open': smallNavSelected==true}"
         >
-        <button><fa-icon [icon]="close" (click)="onSmallNavSelection()"></fa-icon></button>
+        <button class="header-nav-small-menu-slider-close-btn"><fa-icon [icon]="close" (click)="onSmallNavSelection()"></fa-icon></button>
         <ul class="header-nav-small-menu">
             <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/home']">Home</a></li>
             <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/courses']">Courses</a></li>
