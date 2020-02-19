@@ -1,9 +1,33 @@
+@media only screen and (min-width: 100px) and (max-width:1000px) {
+    .bg-courses-container {
+        height: auto !important;
+    }
+    .bg-courses-top-layout {
+        height: 10% !important;
+    }
+    .bg-courses-header-txt {
+        padding: 20px 0% !important;
+    }
+    .bg-courses-img-list {
+        position: relative !important;
+        display: flex;
+        flex-direction: column !important;
+        width: 50% !important;
+        margin: 0% 25% !important;
+        top: 3rem !important;
+    }
+    .bg-courses-img-design, .bg-courses-img-prog, .bg-courses-img-prog {
+        margin: 2% 0% !important; 
+    }
+}
+
 :host {
     position: absolute;
     height: 100%;
     width: 100%;
     background: white;
     overflow-x: hidden;
+    color: #acabab;
 }
 .bg-courses {
     height: 100%;
@@ -11,6 +35,7 @@
 }
 .bg-courses-container {
     height: 90%;
+    position: relative;
 }
 .bg-courses-top-layout {
     height: 50%;
@@ -27,10 +52,10 @@
 
 .bg-courses-img-list {
     position: absolute;
-    width: 100%;
+    width: 80%;
     display: flex;
-    padding: 0% 10%;
-    top: 30%;
+    margin: 0% 10%;
+    top: 14rem;
 }
 .bg-courses-img-design {
     width: 100%;

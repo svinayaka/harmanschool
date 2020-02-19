@@ -15,6 +15,13 @@
     }
 }
 
+:host {
+    color: white;
+    // position: absolute;
+    // height: 100%;
+    // width: 100%;
+}
+
 .header-container {
     display: flex;
     box-shadow: 0 8px 6px -6px #E2E2E2;
@@ -56,7 +63,7 @@
     display: flex;
     height: 100%;
     align-items: center;
-    color: #888383;
+    color: inherit;
 }
 
 .header-nav-list {
@@ -68,11 +75,6 @@
         display: inline-block;
         height: 20px;
         color: inherit;
-    }
-}
-.header-nav-list--selected {
-    & a {
-        border-bottom: 2px solid #7971ea;
     }
 }
 
@@ -131,3 +133,13 @@
     }
 }
 
+//----------------------
+.header-nav-list-link--ul_selected--ul_purple {
+    border-bottom: 2px solid #7971ea;
+}
+.header-nav-list-link--ul_selected--ul_white {
+    border-bottom: 2px solid #E2E2E2 !important;
+}
+.header-nav-list--selected-darkBlue {
+    background-color: blue !important;
+}
