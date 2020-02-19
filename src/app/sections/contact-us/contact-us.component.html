@@ -1,1 +1,27 @@
-<p>contact-us works!</p>
+<div class="bg-contact">
+    <div><app-menu></app-menu></div>
+    <div class="bg-contact-container">
+        <div class="bg-contact-form">
+            <p class="bg-contact-form-header">Message Us</p>
+            <p class="bg-contact-form-subheader">some dummy text</p>
+            <form #contactForm="ngForm" novalidate>
+                <div class="bg-contact-form-fieldsets">
+                    <input type="text" placeholder="First Name" class="bg-contact-form-input left-input"/>
+                    <input type="text" placeholder="Last Name" class="bg-contact-form-input right-input" />
+                </div>
+                <div class="bg-contact-form-fieldsets">
+                    <input type="text" placeholder="Subject" class="bg-contact-form-input full-input"/>
+                </div>
+                <div class="bg-contact-form-fieldsets">
+                    <input type="email" placeholder="Email" class="bg-contact-form-input full-input"/>
+                </div>
+                <div class="bg-contact-form-fieldsets">
+                    <textarea class="bg-contact-form-textarea" placeholder="Write your message here." rows="4" cols="50"></textarea> 
+                </div>
+                <div class="bg-contact-form-fieldsets">
+                    <button class="bg-contact-form-sendmsg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+
+$fg-color: #acabab;
+$bg-color: #ffffff;
+
+
+@media only screen and (min-width: 100px) and (max-width:1000px) {
+    .bg-teachers-container-teachersList {
+        flex-direction: column;
+    }
+}
+
+:host {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    overflow-x: hidden;
+}
+.bg-teachers {
+    height:100%;
+    width: 100%;
+}
+.bg-teachers-container {
+    height: 95%;
+    width: 100%;
+    &-title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 900;
+        margin: 1rem 0%;
+    }
+    &-subtitle {
+        padding: 0px 26vw;
+        color: $fg-color;
+        line-height: 1.4rem;
+    }
+    &-teachersLists {
+        display: flex;
+        width: 100%;
+        padding: 2rem 12%;
+        flex-direction: row;
+    }
+    &-teachersViewGrid {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    &-teachersView {
+        text-align: center;
+        text-align: center;
+        border: 2px solid #E2E2E2;
+        margin: 1rem 4% 2%;
+        padding: 5rem 0% 2rem;
+    }
+    &-teachersImg {
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 8em;
+        border-radius: 100%;
+        background-size: cover;
+        height: 8em;
+        position: relative;
+        top: 5rem;
+    }
+    .teacherFirstImg {
+        background-image: url('../../../assets/teacher_1.jpg');
+    }
+    .teacherSecondImg {
+        background-image: url('../../../assets/teacher_2.jpg');
+    }
+    .teacherThridImg {
+        background-image: url('../../../assets/teacher_3.jpg');
+    }
+    &-teachersName {
+
+    }
+    &-teachersType {
+
+    }
+    &-teachersInfo {
+        color: $fg-color;
+        line-height: 1.4rem;
+    }
+}
+

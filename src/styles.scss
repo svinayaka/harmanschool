@@ -11,6 +11,28 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0px;
 }
 
+
+$border-color: #E2E2E2;
+$btn-bg-color: #7971ea;
+$bg-color: #ffffff;
+$btn-fg-color: #ffffff;
+$fg-color: #acabab;
+
+input {
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid $border-color;
+}
+
+button {
+    background: $btn-bg-color;
+    color: $btn-fg-color;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 body {
     background: url("assets/Bg_Home.jpg");
     background-repeat: no-repeat;

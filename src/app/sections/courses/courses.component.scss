@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     background: white;
+    overflow-x: hidden;
 }
 .bg-courses {
     height: 100%;
@@ -26,8 +27,6 @@
 
 .bg-courses-img-list {
     position: absolute;
-    height: 15rem;
-    z-index: 1;
     width: 100%;
     display: flex;
     padding: 0% 10%;
@@ -46,15 +45,17 @@
     }
     &-price {
         position: absolute;
-        top: 95%;
+        top: 15rem;
         background: #7971ea;
         padding: 4%;
         right: 0;
         color: white;
+        font-size: calc(1.5vw - 0.6vw);
     }
     &-course {
         padding: 10% 4%;
         background-color: #f8f8f8;
+        min-height: 10.5rem;
         &-weeks{
             font-size: small;
             color: #acabab;
@@ -110,15 +111,17 @@
     }
     &-price {
         position: absolute;
-        top: 95%;
+        top: 15rem;
         background: #7971ea;
         padding: 4%;
         right: 0;
         color: white;
+        font-size: calc(1.5vw - 0.6vw);
     }
     &-course {
         padding: 10% 4%;
         background-color: #f8f8f8;
+        min-height: 10.5rem;
         &-weeks{
             font-size: small;
             color: #acabab;
@@ -173,15 +176,17 @@
     }
     &-price {
         position: absolute;
-        top: 95%;
+        top: 15rem;
         background: #7971ea;
         padding: 4%;
         right: 0;
         color: white;
+        font-size: calc(1.5vw - 0.6vw);
     }
     &-course {
         padding: 10% 4%;
         background-color: #f8f8f8;
+        min-height: 10.5rem;
         &-weeks{
             font-size: small;
             color: #acabab;
