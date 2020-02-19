@@ -14,9 +14,15 @@ $light-font: #c1bfbf;
 }
 
 @media only screen and (min-width: 100px) and (max-width:700px) {
-    .left-input, .right-input {
-        width: 100%;
-        margin: 0px;
+    .left-input {
+        width: 100% !important;
+        margin: 0px !important;
+        margin-bottom: 1% !important;
+    }
+    .right-input {
+        width: 100% !important;
+        margin: 0px !important;
+        margin-top: 1% !important;
     }
 }
 

@@ -2,10 +2,10 @@
 $fg-color: #acabab;
 $bg-color: #ffffff;
 
-
-@media only screen and (min-width: 100px) and (max-width:1000px) {
-    .bg-teachers-container-teachersList {
-        flex-direction: column;
+@media only screen and (max-width:1000px) { 
+    .mediateachersList {
+        display: flex;
+        flex-direction: column !important;
     }
 }
 
@@ -16,6 +16,7 @@ $bg-color: #ffffff;
     background: white;
     overflow-x: hidden;
 }
+
 .bg-teachers {
     height:100%;
     width: 100%;
@@ -38,8 +39,11 @@ $bg-color: #ffffff;
         display: flex;
         width: 100%;
         padding: 2rem 12%;
-        flex-direction: row;
+        
     }
+    .mediateachersList {
+        flex-direction: row;
+    } 
     &-teachersViewGrid {
         width: 100%;
         position: relative;
@@ -50,7 +54,7 @@ $bg-color: #ffffff;
         text-align: center;
         border: 2px solid #E2E2E2;
         margin: 1rem 4% 2%;
-        padding: 5rem 0% 2rem;
+        padding: 5rem 4% 2rem;
     }
     &-teachersImg {
         background-position: center;
@@ -72,14 +76,16 @@ $bg-color: #ffffff;
         background-image: url('../../../assets/teacher_3.jpg');
     }
     &-teachersName {
-
     }
     &-teachersType {
-
+        margin: 1rem;
+        color: $fg-color;
+        font-size: small;
     }
     &-teachersInfo {
         color: $fg-color;
         line-height: 1.4rem;
+        font-size: small;
     }
 }
 

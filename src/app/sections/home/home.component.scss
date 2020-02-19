@@ -1,8 +1,22 @@
+
+
 :host {
     position: absolute;
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+
+@media only screen and (min-width: 100px) and (max-width:1000px) {  
+    .bg-home-content {
+        flex-direction: column;
+    };
+    .home-left {
+        padding: 8rem 4% 4% !important;
+    };
+    .home-right {
+        margin: 2rem 5% 14rem  !important;
+    };
 }
 
 .bg-home {
@@ -18,18 +32,17 @@
     flex: 1;
     box-sizing: inherit;
     position: relative;
+    padding: 26rem 4% 4%;
+}
+.bg-home-left {
     & h4 {
-        position: absolute;
-        top: 22rem;
-        left: 26%;
+        margin: 1rem 0%;
+        text-align: left;
         font-size: 2rem;
-        color: white;
+        color: #ffffff;
     }
     & p {
-        position: absolute;
-        top: 25rem;
         line-height: 1.5rem;
-        left: 26%;
         color: #a09f9f;
     }
 }
@@ -37,11 +50,9 @@
     flex: 1;
     box-sizing: inherit;
     position: relative;
-    margin: 5rem 5%;
+    margin: 20rem 5% 14rem;
 }
 .bg-home-form {
-    position: absolute;
-    top: 12rem;
     width: 100%;
     background: white;
     border-radius: 6px;
