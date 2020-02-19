@@ -15,20 +15,20 @@
     </div>
     <!-- To enable only when small screen or resized -->
     <nav class="header-link-small-screen">
-        <button class="header-nav-small-menu"><fa-icon [icon]="bars" (click)="onSmallNavSelection()"></fa-icon></button>
+        <button class="header-nav-small-btn-menu"><fa-icon [icon]="bars" (click)="onSmallNavSelection()"></fa-icon></button>
     </nav>
     <div class="header-nav-small-menu-slider" 
         [ngClass]="{'header-nav-small-menu-slider-close': smallNavSelected==false, 'header-nav-small-menu-slider-open': smallNavSelected==true}"
         >
         <button class="header-nav-small-menu-slider-close-btn"><fa-icon [icon]="close" (click)="onSmallNavSelection()"></fa-icon></button>
         <ul class="header-nav-small-menu">
-            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/home']" [routerLinkActive]="['header-nav-list--selected']">Home</a></li>
-            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/courses']" [routerLinkActive]="['header-nav-list--selected']">Courses</a></li>
-            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/programs']" [routerLinkActive]="['header-nav-list--selected']">Programs</a></li>
-            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/teachers']" [routerLinkActive]="['header-nav-list--selected']">Teachers</a></li>
+            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/home']" [routerLinkActive]="['header-nav-list-link--ul_selected_purple']">Home</a></li>
+            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/courses']" [routerLinkActive]="['header-nav-list-link--ul_selected_purple']">Courses</a></li>
+            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/programs']" [routerLinkActive]="['header-nav-list-link--ul_selected_purple']">Programs</a></li>
+            <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/teachers']" [routerLinkActive]="['header-nav-list-link--ul_selected_purple']">Teachers</a></li>
         </ul>
         <div>
-            <button></button>
+            <button [routerLinkActive]="['header-nav-list--selected-darkBlue']">Contact Us</button>
         </div>
     </div>
     <!-- ****** -->
