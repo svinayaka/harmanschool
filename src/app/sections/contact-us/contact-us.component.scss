@@ -10,7 +10,7 @@ $light-font: #c1bfbf;
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     color: #acabab;
 }
 
@@ -34,7 +34,8 @@ $light-font: #c1bfbf;
 
 .bg-contact-container {
     background: $bg;
-    height: 95%;
+    // height: 95%;
+    height: 103.5vh;
     left: 0;
     top: 0;
 }
