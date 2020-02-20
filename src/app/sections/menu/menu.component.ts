@@ -8,6 +8,7 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 })
 export class MenuComponent implements OnInit {
   @Input() headerTxt;
+  @Input() routePage;
   bars = faBars;
   close = faTimes;
   smallNavSelected = false;

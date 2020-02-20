@@ -1,6 +1,6 @@
-<div class="header-container"> 
+<div class="header-container" [ngClass]="{'header-container-boxshadow': routePage!='home'}"> 
     <div class="header-txt">
-        <h4 [ngStyle]="{'color': headerTxt}">HarmanSchool</h4>
+        <h4 [ngStyle]="{'color': headerTxt}" >HarmanSchool</h4>
     </div>
     <nav class="header-link">
         <ul class="header-nav-menu">
@@ -28,7 +28,7 @@
             <li class="header-nav-small-list"><a href="javascript:void(0);" [routerLink]="['/teachers']" [routerLinkActive]="['header-nav-list-link--ul_selected_purple']">Teachers</a></li>
         </ul>
         <div>
-            <button [routerLink]="['/contactus']" [routerLinkActive]="['header-nav-list--selected-darkBlue']">Contact Us</button>
+            <button class="header-nav-small-contactbtn" [routerLink]="['/contactus']" [routerLinkActive]="['header-nav-list--selected-darkBlue']">Contact Us</button>
         </div>
     </div>
     <!-- ****** -->

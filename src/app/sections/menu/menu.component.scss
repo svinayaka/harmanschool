@@ -17,10 +17,12 @@
 
 :host { }
 
-.header-container {
+.header-container  {
     display: flex;
-    box-shadow: 0 8px 6px -6px #E2E2E2;
     height: 3em;
+}
+.header-container-boxshadow {
+    box-shadow: 0 8px 6px -6px #E2E2E2;
 }
 
 .header-txt {
@@ -95,7 +97,7 @@
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    height: 10rem;
+    height: 9rem;
 }
 .header-nav-small-menu-slider {
     position: absolute;
@@ -131,8 +133,12 @@
     margin: 6% 1%;
     & a {
         text-decoration: none;
-        color: inherit;
+        color: #a2a0a0;
     }
+}
+.header-nav-small-contactbtn {
+    height: 32px;
+    width: 100px;
 }
 
 //----------------------
